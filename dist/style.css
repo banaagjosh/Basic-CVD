@@ -150,6 +150,7 @@
     position: relative;
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 
 .header .branding img{
@@ -318,6 +319,68 @@
 
 }
 
+
+/*--------SERVICES--------*/
+.hm-services{
+    background: #2b2b2b;
+    padding: 8rem 0;
+}
+.hm-services .hm-services__item{
+    text-align: center;
+    margin: 0 5rem;
+}
+
+.hm-services .hm-services__item i{
+    font-size: 5rem;
+    color: #ffa700;
+    margin-bottom: 2rem;
+}
+
+.hm-services .hm-services__item h4{
+    color: #ffa700;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.hm-services .hm-services__item p{
+    color: #ffffff;
+    margin: 2rem 0;
+    text-align: justify;
+}
+
+.hm-services .hm-services__wrapper{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+@media screen and (max-width:500px){
+    .hm-services .hm-services__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    }
+
+    .hm-services__wrapper .btn{
+        margin-bottom: 100px;
+    }
+
+    .hm-services .hm-services__wrapper{
+        max-width: fit-content;
+        font-size: 2rem;
+        margin: 0 auto;
+        text-align: justify;
+    }
+    .hm-services .hm-services__item i {
+        font-size: 4rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .hm-services .hm-services__item p{
+        text-align: justify;
+        margin-right: 2rem;
+    }
+
 /*-------------REPEATABLE PATTERNS-----------*/
 
 .btn{
@@ -358,6 +421,7 @@
 
 .aboutme .about__text h3{
     margin-right: 10rem;
+    font-size: 2rem;
     color: #ffa700;
     font-weight: 600;
 }
