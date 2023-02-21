@@ -379,6 +379,10 @@
     .hm-services .hm-services__item p{
         text-align: justify;
         margin-right: 2rem;
+        font-size: 1.5rem;
+    }
+    .hm-services .hm-services__item a{
+        font-size: 1.5rem;
     }
 
 /*-------------REPEATABLE PATTERNS-----------*/
