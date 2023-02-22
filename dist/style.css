@@ -475,3 +475,205 @@
             max-width: 40rem;
             margin: 4rem 0;
 }
+}
+
+/*------------LATEST------------*/
+.latest{
+    background:#080808;
+    padding: 5rem;
+}
+.latest .latest_item{
+    background-color: #ffffff;
+    border-radius: 5%;
+    margin: 2rem;
+    align-items: center;
+}
+.latest .latest_item p{
+    margin: 2rem 0;
+    text-align: justify;
+    margin: 2rem;
+    font-size: 1.8rem;
+}
+.latest .latest_item img{
+    width: 100%;
+}
+.latest .latest_item h2{
+    color: #ffa700;
+    font-weight: bold;
+    margin: 2rem;
+}
+.latest .latest_item a{
+    color: #ffa700;
+    font-weight: bold;
+    margin: 2rem;
+}
+.latest .latest_title h2{
+    color: #ffa700;
+    font-size: 5rem;
+    font-weight: 600;
+}
+.latest .latest_title p{
+    color: #ffffff;
+    font-size: 2rem;
+}
+.latest .latest_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.latest .latest_item p{
+    text-align: justify;
+}
+.latest .latest_title{
+    margin: 2rem;
+}
+@media screen and (max-width:500px){
+    .latest .latest_wrapper{
+        display: block;
+     }
+     .latest .latest_title p{
+        color: #ffffff;
+        font-size: 1.5rem;
+    }
+    .latest .latest_title h2{
+        color: #ffa700;
+        font-size: 4rem;
+        font-weight: 600;
+    }
+}
+/*-------CONTACT------*/
+.contact{
+    background: #ffa700;
+    padding: 2rem;
+}
+.contact .contact_text{
+    text-align:  center;
+}
+.contact .contact_text h3{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.contact .contact_text a{
+    margin: 2rem;
+    font-size: 1.2rem;
+    padding: 2rem;
+    color: #ffffff;
+    background: #2b2b2b;
+}
+@media screen and (max-width:500px){
+    .contact{
+        flex-direction: column;
+    }
+    .contact .contact_text{
+        text-align:  center;
+    }
+    .contact .contact_text h3{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .contact .contact_text h4{
+        font-size: 1.5rem;
+    }
+}
+/*-------FOOTER------*/
+.footer{
+    background: #080808;
+}
+.footer .footer_text i{
+    color: #575555;
+}
+.footer .footer_text{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .footer_text ul{
+    display: flex;
+}
+.footer .footer_text ul li{
+    margin-right: 1rem;
+}
+.footer .footer_text p{
+    display: inline-block;
+    font-size: 1.5rem;
+}
+.footer .footer_text .copy p{
+    display: inline-block;
+    text-transform: uppercase;
+}
+.footer .footer_text i:hover{
+    color: #ffa700;
+}
+
+@media screen and (max-width:500px){
+    .footer .footer_wrapper .footer_text {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/*----------ABOUT------*/
+
+.about__page{
+    padding: 16rem 0 12rem;
+}
+
+.about__page .container .about__page__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about__page .container .about__page__wrapper .about__page__text h1{
+    font-size: 8rem;
+    color: #ffa700;
+    font-weight: 700;
+}
+
+.about__page .container .about__page__wrapper .about__page__text p{
+    margin-top: 2rem;
+    text-align: justify;
+    max-width: 60rem;
+    line-height: 1.8;
+}
+
+.about__page .container .about__page__wrapper .about__page__text ul{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.about__page .container .about__page__wrapper .about__page__text ul li{
+    margin-right: 2rem;
+}
+
+.about__page .container .about__page__wrapper .about__page__text ul li i{
+    font-size: 3rem;
+    color: #ffa700;
+}
+
+.about__page .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__page .container .for_scroll{
+  font-size: 5rem;
+  color: #ffa700;
+}
+
+
+@media screen and (max-width:500px){
+    .about__page .container .about__page__wrapper{
+        flex-direction: column-reverse;
+    }
+    .about__page .container .about__page__wrapper .about__page__text{
+        width: 100%;
+        padding: 2rem 2.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
