@@ -537,6 +537,11 @@
     color: #ffffff;
     background: #2b2b2b;
 }
+.contact .contact_text a:hover{
+    background: #ffffff;
+    color: #000000;
+}
+
 @media screen and (max-width:500px){
     .contact{
         flex-direction: column;
@@ -751,7 +756,7 @@
     color: #ffa700;
     font-size: 3rem;
     font-weight: 600;
-    padding-top: 3rem;
+    padding-top: 13rem;
 }
 
 .updates .rpp p{
@@ -788,7 +793,7 @@
     color: #ffa700;
     font-size: 3rem;
     font-weight: 600;
-    padding-top: 5rem;
+    padding-top: 10rem;
     padding-bottom: 3rem;
 }
 
@@ -826,13 +831,402 @@
     .updates__tags__btn{
         max-width: 100%;
     }
+    .updates .updates__title{
+        padding-top: 6rem;
+    }
     .updates__title h1{
         text-align: center;
     }
     .updates__title p{
         text-align: center;
     }
+
+    .updates__categ h3{
+        text-align: center;
+    }
+
+    .updates__text h3{
+        text-align: center;
+    }
+    .updates__rp h3{
+        text-align: center;
+    }
+    .updates__tags h3{
+        text-align: center;
+    }
 }
+
+
+
+
+
+/*--------SERVICES--------*/
+
+.services{
+    width: 100%;
+}
+
+.services .services__wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15rem;
+    width: 100%;
+    margin-top: 10rem;
+    place-items: center;
+    place-content: center;
+}
+
+
+.services .services__text h3{
+    margin-right: 10rem;
+    font-size: 6.7rem;
+    color: #ffa700;
+    font-weight: 800;
+   padding-top: 10rem;
+   padding-bottom: 3rem;
+}
+
+.services .services__text p{
+    max-width: 60rem;
+    text-align: justify;
+    margin: 0;
+}
+
+.services__wrapper .services__text .services_price h2{
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 5rem;
+}
+
+.services__wrapper .services__text .services_price p{
+    font-size: 3rem;
+    color: #ffa700;
+    font-weight: 600;
+}
+
+.services__wrapper .services__text .services_price span{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.services .elp{
+    position: relative;
+}
+
+.services .elp .pic{
+        position: absolute;
+        top: 0px;
+        opacity: .5;
+
+    }
+
+.services .arrow i{
+        display: flex;
+        place-content: center;
+        place-items: center;
+        font-size: 4rem;
+        color: #ffa700;
+        font-weight: 600;
+        padding-bottom: 5rem;
+        padding-top: 5rem;
+      }
+
+
+.servicess{
+    width: 100;
+    background: #2b2b2b;
+}
+
+.servicess .servicess__wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15rem;
+    width: 100%;
+    margin-top: 8rem;
+    place-items: center;
+    place-content: center;
+}
+
+.servicess .servicess__text h3{
+   padding-top: 1rem;
+    margin-right: 10rem;
+    font-size: 4rem;
+    color: #ffa700;
+    font-weight: 800;
+    font-size: 5rem;
+    padding-bottom: 3rem;
+}
+
+.servicess .servicess__text p{
+    color: #ffffff;
+    max-width: 60rem;
+    text-align: justify;
+    margin: 0;
+}
+
+.servicess .elpp{
+    position: relative;
+}
+
+.servicess .servicess_price h2{
+    font-size: 2rem;
+    color: #ffffff;
+    padding-top: 5rem;
+}
+
+.servicess .servicess_price p{
+    font-size: 3rem;
+    color: #ffa700;
+    font-weight: 600;
+}
+
+.servicess .servicess_price span{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 500;
+    padding-bottom: 1rem;
+    color: #ffffff;
+}
+
+.servicess .arroww i{
+    display: flex;
+    place-content: center;
+    place-items: center;
+    font-size: 4rem;
+    color: #ffa700;
+    font-weight: 600;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+
+.servicesss{
+    width: 100%;
+}
+
+.servicesss .servicesss__wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15rem;
+    width: 100%;
+    margin-top: 3rem;
+    place-items: center;
+    place-content: center;
+    padding-bottom: 8rem;
+}
+
+
+.servicesss .servicesss__text h3{
+    margin-right: 10rem;
+    font-size: 6.7rem;
+    color: #ffa700;
+    font-weight: 800;
+   padding-top: 10rem;
+   padding-bottom: 3rem;
+}
+
+.servicesss .servicesss__text p{
+    max-width: 60rem;
+    text-align: justify;
+    margin: 0;
+}
+
+.servicesss__wrapper .servicesss__text .servicesss_price h2{
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 5rem;
+}
+
+.servicesss .servicesss_price p{
+    font-size: 3rem;
+    color: #ffa700;
+    font-weight: 600;
+}
+
+.servicesss .servicesss_price span{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.servicesss .elppp{
+    position: relative;
+}
+
+.servicesss .elppp .pic{
+        position: absolute;
+        top: 0px;
+        opacity: .5;
+
+    }
+
+
+
+
+
+@media screen and (max-width:500px){
+    .services .services__wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding: 0 3rem;
+        padding-top: 5rem;
+        grid-gap: 0;
+    }
+    .services__wrapper .services__text h3{
+        font-size: 4rem;
+        text-align: center;
+        margin: 0;
+        padding-top: 1rem;
+    }
+
+    .servicess .servicess__wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 3rem;
+        grid-gap: 0;
+    }
+    .servicess__wrapper .servicess__text h3{
+        font-size: 4rem;
+        text-align: center;
+        margin: 0;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .servicesss .servicesss__wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding: 0 3rem;
+        grid-gap: 0;
+        padding-bottom: 4rem;
+    }
+    .servicesss__wrapper .servicesss__text h3{
+        font-size: 4rem;
+        margin: 0;
+        text-align: center;
+        padding-top: 1rem;
+    }
+}
+
+
+
+/*--------CONTACT--------*/
+
+
+.cntct{
+    padding: 16rem 0 12rem;
+    background: #2b2b2b;
+}
+
+.cntct .container .cntct__page__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cntct .container .cntct__page__wrapper .cntct__page__text h1{
+    font-size: 8rem;
+    color: #ffa700;
+    font-weight: 700;
+    padding-top: 5rem;
+}
+
+.cntct .container .cntct__page__wrapper .cntct__page__text p{
+    margin-top: 2rem;
+    text-align: justify;
+    max-width: 60rem;
+    line-height: 1.8;
+    color: #ffffff;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.cntct .icns1 ul{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.cntct .icns1 ul li{
+   margin-right: 4rem;
+}
+
+.cntct .icns1 ul li i{
+    margin-right: 1rem;
+ }
+
+ .cntct .icns1 a{
+    color: #ffa700;
+    font-size: 4rem;
+    
+ }
+
+ .cntct .icns2 a{
+    color: #ffa700;
+    font-size: 4rem;
+    
+ }
+
+ .cntct .icns3 a{
+    color: #ffa700;
+    font-size: 4rem;
+    
+ }
+
+ .cntct .icns1 span{
+    color: #ffffff;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+ }
+
+ .cntct .icns2 span{
+    color: #ffffff;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+ }
+
+ .cntct .icns3 span{
+    color: #ffffff;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+ }
+
+ .cntct .icns1{
+    display: flex;
+ }
+
+ .cntct .icns2{
+    display: flex;
+ }
+
+ .cntct .icns3{
+    display: flex;
+ }
+
+
+ .cntct .icns88{
+    display: flex;
+ }
+
+ .cntct .icns88 a{
+    color: #ffffff;
+    font-size: 3rem;
+    padding-left: 3rem;
+ }
+
+
+
+ 
+
+
 
 
 
@@ -865,6 +1259,7 @@
     background: #2b2b2b;
     color: #ffffff;
 }
+
 
 .bb-1{
     border-bottom: 1px solid #2b2b2b;
